@@ -1,5 +1,6 @@
 {
     "name": "contemporary-va/entity",
+    "version": "dev-master",
     "autoload": {
         "psr-0": {
             "ContemporaryVA\\Entity": "src"
