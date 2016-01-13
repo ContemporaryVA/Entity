@@ -1,5 +1,5 @@
 {
-    "name": "ContemporaryVA/Entity",
+    "name": "contemporary-va/entity",
     "autoload": {
         "psr-0": {
             "ContemporaryVA\\Entity": "src"
