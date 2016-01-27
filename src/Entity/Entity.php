@@ -23,7 +23,7 @@ abstract class Entity {
 	 * @param string $property
 	 *
 	 * @return mixed
-	 * @throws InvalidArgumentException
+	 * @throws \InvalidArgumentException
 	 */
 	public function __get($property)
 	{
@@ -33,7 +33,7 @@ abstract class Entity {
 			{
 				return $this->unknownProperties[ $property ];
 			}
-			throw new InvalidArgumentException(sprintf(
+			throw new \InvalidArgumentException(sprintf(
 				'Property "%s::%s" does not exist.', get_class($this), $property
 			));
 		}
