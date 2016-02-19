@@ -6,7 +6,16 @@
             "ContemporaryVA\\Entity": "src"
         }
     },
+    "config": {
+        "preferred-install": "dist"
+    },
     "require": {
         "illuminate/support": "~5.0"
-    }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-develop": "0.0.1"
+        }
+    },
+    "minimum-stability": "stable"
 }
