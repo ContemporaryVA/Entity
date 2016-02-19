@@ -1,6 +1,6 @@
 {
     "name": "contemporary-va/entity",
-    "version": "dev-master",
+    "description": "",
     "autoload": {
         "psr-0": {
             "ContemporaryVA\\Entity": "src"
@@ -11,11 +11,6 @@
     },
     "require": {
         "illuminate/support": "~5.0"
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-develop": "0.0.1"
-        }
     },
     "minimum-stability": "stable"
 }
