@@ -1,6 +1,6 @@
 <?php
 
-namespace ContemporaryVA;
+namespace ContemporaryVA\Entity;
 
 use Illuminate\Support\Collection;
 
